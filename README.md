@@ -1,3 +1,4 @@
+# Socket programming in C
 # TCP-3Way-Handshake-Simulator
 ## Overview
 The TCP client/server simulator program is written in C to represent how a TCP 3-way handshake works in practice. 
@@ -27,10 +28,15 @@ And Voila, now you have a TCP server and client communicating with each other an
     ![screenshot of the Syn message](images/client.png)
 
 2) The server receives the SYN message, modifies the header, and sends the SYN+ACK message.
-
+     ![screenshot of the Syn+ack message](images/syn-ack.png)
+   
 3) The client receives the SYN+ACK message, modifies the header, and responds with ACK message.
+    ![screenshot of the Syn message](images/ack.png)
 
 4) TCP connection terminates.
+
+
+
 
 
 
