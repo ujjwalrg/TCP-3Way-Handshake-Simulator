@@ -36,7 +36,8 @@ And Voila, now you have a TCP server and client communicating with each other an
 4) TCP connection terminates.
 
 
-
+## Copyright
+&copy; 2022 TCP handshake by Ujjwal, No rights reserved  
 
 
 
